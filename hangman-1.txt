@@ -1,6 +1,6 @@
 import random
 # Here the user is asked to enter the name first
-name = print(input("what's your name: "))
+name = (input("what's your name: "))
 #hangman game
 print("Good Luck ! ", name)
 
