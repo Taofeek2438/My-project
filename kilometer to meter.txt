@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+void main()
+{
+    float km;
+    float miles;
+
+
+    printf("Program to convert kilometer to mile: ");
+
+    printf("\n\nEnter length in kilometer: ");
+    scanf("%f", &km);
+
+    miles = (0.6213712*km);
+    printf("\n\n %f kilometer in millimeter = %f \n", km,miles);
+
+
+
+    getch();
+}
