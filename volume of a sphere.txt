@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+  int radius;
+  printf("Enter a radius: ");
+  scanf("%d", &radius);
+  float pie = 3.14285714286;
+  double volume = (4.0/3.0)*pie*(radius*radius*radius);
+  printf("volume of the sphere = %f", volume);
+
+
+
+    return 0;
+}
